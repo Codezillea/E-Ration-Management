@@ -7,10 +7,10 @@ import img3 from "../../assets/About.jpg";
 import delivery from "../../assets/delivery.png";
 
 
-import {Footer } from "../../components/Customer-Home/Footer"
-import { BestSellers } from '../../components/Customer-Home/BestSellers';
-import { FeauturedProduct } from "../../components/Customer-Home/FeauturedProduct";
-import { GovtSchemes } from "../../components/Customer-Home/GovtSchemes";
+import {Footer } from "../../components/Customer/Home/Footer"
+import { BestSellers } from '../../components/Customer/Home/BestSellers';
+import { FeauturedProduct } from "../../components/Customer/Home/FeauturedProduct";
+import { GovtSchemes } from "../../components/Customer/Home/GovtSchemes";
 import { Link } from "react-router-dom";
 
 

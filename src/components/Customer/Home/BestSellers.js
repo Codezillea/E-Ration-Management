@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 
-import truck from "../../assets/delivery-truck_4947193.png";
-import clock from "../../assets/clock.png";
+import truck from "../../../assets/delivery-truck_4947193.png";
+import clock from "../../../assets/clock.png";
 
 export const BestSellers = () => {
   return (

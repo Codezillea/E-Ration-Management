@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../assets/ManagerImage2.jpg"
+import img from "../../../assets/ManagerImage2.jpg"
 export const IndividualScheme = () => {
   return (
     <>

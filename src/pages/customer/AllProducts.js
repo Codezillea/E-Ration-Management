@@ -1,5 +1,5 @@
 import React from 'react'
-import { IndividualProduct } from '../../components/Customer-Home/IndividualProduct'
+import { IndividualProduct } from '../../components/Customer/Home/IndividualProduct'
 import { Navbar } from '../customer/Navbar'
 
 export const AllProducts = () => {
