@@ -5,7 +5,7 @@ export const IndividualProduct = ({img}) => {
     <>
     
 
-<div class="ml-16 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
+<div class="ml-16 mt-12 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
     <a href="/">
         <img class="p-8 rounded-t-lg" src={img} alt="product card" />
     </a>

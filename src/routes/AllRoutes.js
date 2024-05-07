@@ -6,7 +6,8 @@ import { ManagerRegister } from '../pages/register/ManagerRegister'
 import { CustomerRegister } from '../pages/register/CustomerRegister'
 import { LoginPage2 } from '../pages/login/LoginPage2';
 import { HomePage } from '../pages/customer/HomePage';
-import { AllProducts } from '../pages/customer/AllProducts'
+import { AllProducts } from '../pages/customer/AllProducts';
+
 export const AllRoutes = () => {
   return (
    <Routes>

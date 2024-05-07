@@ -11,6 +11,7 @@ import {Footer } from "../../components/Customer-Home/Footer"
 import { BestSellers } from '../../components/Customer-Home/BestSellers';
 import { FeauturedProduct } from "../../components/Customer-Home/FeauturedProduct";
 import { GovtSchemes } from "../../components/Customer-Home/GovtSchemes";
+import { Link } from "react-router-dom";
 
 
 export const HomePage = () => {
@@ -65,7 +66,7 @@ export const HomePage = () => {
           </div >
           <div className=" mt-16 flex justify-center items-center">
           <button className="border p-5 bg-orange-500 rounded-lg text-white text-2xl">
-            view all products
+            <Link to="/allProducts">view all products</Link>
           </button>
           </div>
           

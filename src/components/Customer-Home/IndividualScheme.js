@@ -1,11 +1,11 @@
 import React from 'react'
-
+import img from "../../assets/ManagerImage2.jpg"
 export const IndividualScheme = () => {
   return (
     <>
-    <div class="mx-4 w-full h-full max-w-xl bg-white border border-gray-200 rounded-lg shadow">
+    <div class="mx-4 mt-8 w-full h-full max-w-xl bg-white border border-gray-200 rounded-lg shadow">
     <a href="/">
-        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+        <img class="rounded-t-lg" src={img} alt="" />
     </a>
     <div class="p-5">
         <a href="/">
