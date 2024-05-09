@@ -7,12 +7,14 @@ import { CustomerRegister } from '../pages/register/CustomerRegister'
 import { LoginPage2 } from '../pages/login/LoginPage2';
 import { HomePage } from '../pages/customer/HomePage';
 import { AllProducts } from '../pages/customer/AllProducts';
+import { Cart } from '../pages/customer/Cart'
+import { CustomerDetails } from '../pages/customer/CustomerDetails'
 
 export const AllRoutes = () => {
   return (
    <Routes>
     
-     <Route path='/' element={<LoginPage1/>}/>
+     <Route path='/Customer-login' element={<LoginPage1/>}/>
      <Route path='/customer-register' element={<CustomerRegister />}/>
 
      
@@ -21,11 +23,14 @@ export const AllRoutes = () => {
 
      <Route path='/manager-login' id='manager-login' element={<LoginPage2/>}/>
 
-     <Route path='/home' id='home' element={<HomePage/>}/>
+     <Route path='/' id='home' element={<HomePage/>}/>
 
 
      <Route path='/allProducts' id='allProducts' element={<AllProducts/>}/>
+
+     <Route path='/myCart' id='myCart' element={<Cart/>}/>
     
+     <Route path='/myProfile' id='myProfile' element={<CustomerDetails/>}/>
 
 
 
